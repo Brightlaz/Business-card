@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+body {
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    background-color: #23252C;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 13px;
+    font-weight: 400;
+    color: #F47D27;
+}
+
+p {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.App {
+    width: 380px;
+    margin: 40px auto 40px auto;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+}
+
+.header {
+    text-align: center;
+    margin-top: 24px;
+}
+
+.header h1,
+.header h3 {
+    margin-bottom: 8px;
+}
+
+.header h3 {
+    margin-top: 0;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 16px;
+    align-content: center;
+    align-items: center;
+}
+
+.button {
+    width: 115px;
+    border-radius: 6px;
+    text-align: center;
+    padding: 16px;
+    background-color: #5093E2;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.button img {
+    width: 16px;
+    margin-right: 8px;
+}
+
+.body {
+    width: 80%;
+    margin: 34px auto 24px auto;
+}
+
+#but {
+    background-color: white;
+    color: black;
+    border: 1px solid #D1D5DB;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    background-color: #D5D4D8;
+}
+
+footer img {
+    width: 25px;
+    margin-right: 24px;
+}
+
+footer a img:hover {
+    width: 20px;
+}
+
+footer a:last-child {
+    margin-right: 0;
+}
