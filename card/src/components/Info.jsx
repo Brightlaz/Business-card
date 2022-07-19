@@ -5,7 +5,9 @@ import LinkedIn from '../linkedin.png';
 export default function Info() {
     return (
         <main>
-            <img src={img} className="image" alt="logo" />
+            <div id="picture">
+                <img src={img} className="image" alt="logo" />
+            </div>
             <div className="header">
                 <h1>Bright Lazarus</h1>
                 <h3>Front-end web developer</h3>

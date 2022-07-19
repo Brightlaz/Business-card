@@ -2,9 +2,9 @@ import React from "react";
 import Instagram from "../Instagram.png"
 import Twitter from "../Twitter.png"
 import Github from "../Github.png"
-export default function Footer() {
+export default function Footer(props) {
     return ( 
-        <footer >
+        <footer className={props.darkMode ? "dark": ""}>
             <a href = "https://twitter.com/BrightLazarus8">
             <img src = { Twitter }alt = "twitter-icon" / >
             </a><a href = "https://github.com/Brightlaz" >
